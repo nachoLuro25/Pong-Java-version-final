@@ -216,7 +216,7 @@ public class juegopong extends JPanel implements ActionListener {
         g.setFont(new Font("Arial", Font.BOLD, 36));
         g.drawString("PAUSADO", WIDTH / 2 - 80, HEIGHT / 2 - 20);
         g.setFont(new Font("Arial", Font.PLAIN, 24));
-        g.drawString("Presiona ESC para reanudar", WIDTH / 2 - 130, HEIGHT / 2 + 20);
+        g.drawString("Presiona ESC o P para reanudar", WIDTH / 2 - 130, HEIGHT / 2 + 20);
     }
 
     private void drawGameOverScreen(Graphics g) {
